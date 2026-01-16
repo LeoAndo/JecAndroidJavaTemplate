@@ -65,6 +65,10 @@ Android Lint を実行します。
 - PR 作成/更新で自動実行
 - コメントで `@claude` を付けるとレビュー応答（Owner/Member/Collaborator のみ）
 
+## 学習資料
+- `TUTORIAL.md` : Android アプリ開発入門の授業用テキスト（演習問題付き）
+- `SPEC.md` : アプリ仕様書
+
 ## 貢献
 開発方針や規約は `AGENTS.md` を参照してください。
 

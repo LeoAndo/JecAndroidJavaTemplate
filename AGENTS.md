@@ -38,3 +38,8 @@
 ## 設定・環境
 - `local.properties` は SDK パス 用。個人 環境 の 値 は 共有 しない。
 - 依存 バージョン 変更 は 影響 範囲 を 記録 し、`gradle/libs.versions.toml` を 更新。
+
+## ドキュメント
+- `README.md` : プロジェクト概要とセットアップ手順。
+- `SPEC.md` : アプリ仕様書。画面一覧と技術仕様を記載。
+- `TUTORIAL.md` : 授業用テキスト。Android アプリ開発入門の解説と演習問題。
