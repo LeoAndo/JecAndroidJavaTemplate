@@ -17,4 +17,6 @@ Java ベースの Android アプリ開発用テンプレートです。最小限
 - レイアウト: LinearLayout（縦方向）
 
 ## 画面イメージ
-![メイン画面](img.png)
+|  メイン画面 | 
+|:-----------:|
+| <img src="img.png" width=50% />|
