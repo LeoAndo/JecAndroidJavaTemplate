@@ -53,7 +53,9 @@ Android Lint を実行します。
 - Material Components 1.13.0
 - JUnit 4.13.2 / AndroidX Test JUnit 1.3.0 / Espresso 3.7.0
 
-## GitHub Actions（Claude Code Review）
+## GitHub Actions
+
+### Claude Code Review
 `.github/workflows/claude-review.yml` を使うには、GitHub Secrets の設定が必要です。
 
 設定手順:
@@ -64,6 +66,18 @@ Android Lint を実行します。
 動作:
 - PR 作成/更新で自動実行
 - コメントで `@claude` を付けるとレビュー応答（Owner/Member/Collaborator のみ）
+
+### Junie Code Review
+`.github/workflows/junie-review.yml` を使うには、GitHub Secrets の設定が必要です。
+
+設定手順:
+1. GitHub のリポジトリ画面で `Settings` → `Secrets and variables` → `Actions` → `New repository secret`
+2. Name: `JUNIE_API_KEY`
+3. Value: JetBrains Junie の API キー
+
+動作:
+- PR 作成/更新で自動実行
+- レビューコメントは同一コメントを更新（`use_single_comment: true`）
 
 ## 学習資料
 - `TUTORIAL.md` : Android アプリ開発入門の授業用テキスト（演習問題付き）
