@@ -1,6 +1,6 @@
 # JecAndroidJavaTemplate
 
-Java ベースの Android アプリ テンプレートです。最小限の構成で、UI とテストの雛形を含みます。.
+Java ベースの Android アプリ テンプレートです。最小限の構成で、UI とテストの雛形を含みます。
 
 ## 必要環境
 - Android Studio Panda 1（2025.3.1）以降 または Gradle 実行環境
